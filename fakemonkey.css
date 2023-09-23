@@ -1,0 +1,851 @@
+body{
+    background:  url(office-620822_1280.jpg) no-repeat scroll top;
+    background-color: honeydew ;
+    background-size: 100%;
+    margin: 0;
+}
+.div1{
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+}
+.div2{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: darkblue;
+    padding: 15px;
+    padding-top: 20px;
+    padding-bottom: 6px;
+    padding-left: 600px;
+}
+#d2{
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.dd2{
+    background-color: orange;
+    border: 2px solid white;
+}
+.dd2:hover{
+    background-color: white;
+    border: 2px solid orange;
+}
+#d2:hover{
+    color: red;
+    border: 2px solid red;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.imgwm{
+    width: 200px;
+    background-position: left;
+    padding-right: 540px;
+}
+#dp{
+    color: royalblue;
+    
+    padding: 20px;
+}
+#p{
+    background-color: #ffffff;
+    text-decoration: none;
+}
+#p:hover{
+    color: lightblue;
+}
+.head{
+    text-align: center;
+    color: white;
+    background-color: orange;
+    padding: 10px;
+    margin: 0;
+    font-size: 20px;
+}
+.he{
+    text-align: center;
+    color: white;
+    background-color: navy;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.para1{
+    color: #ffffff;
+    font-size:1000%;
+    text-align: center;
+    padding: 1px;
+    margin: 1px;
+}
+.di3{
+    border-bottom: 9px solid darkblue;
+    width: 40%;
+    margin: 0 auto;
+}
+.para2{
+    color: #ffffff;
+    font-size:250%;
+    text-align: center;
+    margin: 0;
+    padding-top: 50px;
+}
+.para3{
+    color: #ffffff;
+    font-size:150%;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+.pad{
+    text-align: center;
+}
+#ar{
+    background-color: orange;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    margin: 10px;
+}
+#ar:hover{
+    color: blue;
+    background-color: whitesmoke;
+}
+.para4{
+    color: darkorange;
+    font-size:50px;
+    text-align: center;
+    font-weight: bold;
+    background-color: honeydew;
+    padding-top: 25px;
+    margin-bottom: auto;
+}
+.par{
+    display: flex;
+    background-color: honeydew;
+    padding: 20px;
+    padding-left: 200px;
+}
+#cdiv{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+#ccdiv{
+    border-style: solid;
+    border-color: darkorange;
+    border-top: darkorange;
+    border-bottom: darkorange;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+}
+#paradiv{
+    text-decoration: none;
+    font-size: 20px;
+}
+#paradiv:hover{
+    color: orange;
+}
+.pro{
+    text-align: center;
+}
+.proud{
+    background-color: navy;
+    color: #ffffff;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 5px 40px;
+    border: 5px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.row1{
+    display: flex;
+    background-image: linear-gradient(to right,orange,rgb(6, 47, 142));
+    padding: 20px;
+}
+#r1{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.mm{
+    text-align: center;
+    color: darkorange;
+    font-size: 80px;
+}
+.mm1{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.mmdiv{
+    display: flex;
+    padding: 20px 100px;
+}
+#mdiv{
+    border-style: solid;
+    border-color: black;
+    border-top: none;
+    border-bottom: none;
+    border-left: none;
+    color: lightslategray;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 900; 
+}
+#mmmdiv{
+    color: lightslategray;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    font-weight: 900;
+}
+#mdiv2{
+    color: lightseagreen;
+    font-size: 25px;
+}
+.go{
+    text-align: center;
+    font-weight: bold;
+    color: darkorange;
+    font-size: 50px;
+    margin: 100px;
+}
+.ape{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    row-gap: 50px;
+    column-gap: 5px;
+}
+#ifr{
+    height:300px;
+    width:400px;
+}
+.color{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    row-gap: 25px;
+    column-gap: 1px;
+    padding-left: 75px;
+}
+.bs{
+    background-image:url(color-codes.webp);
+    background-size: 100% 100%;
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 124px;
+}
+.r{
+    /* background-color: red; */
+    background-image: linear-gradient(to right,red,darkred);
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 120px;
+}
+.o{
+    /* background-color: orange; */
+    background-image: linear-gradient(to right,orange,rgb(151, 86, 7));
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 124px;
+}
+.y{
+    /* background-color: yellow; */
+    background-image: linear-gradient(to right,yellow,rgb(177, 177, 9));
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 124px;
+}
+.g{
+    background-image: linear-gradient(to right,lightgreen,green);
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 120px;
+}
+.b{
+    background-image: linear-gradient(to right,blue,lightblue);
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 120px;
+}
+.p{
+    background-image: linear-gradient(to right,purple,pink);
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 120px;
+}
+.pu{
+    background-image: linear-gradient(to right,navy,purple);
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 120px;
+}
+.gr{
+    background-image: linear-gradient(to right,gray,ghostwhite);
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 120px;
+}
+.br{
+    background-image: linear-gradient(to right,brown,black);
+    color: #ffffff;
+    padding: 20px;
+    text-decoration: none;
+    border-radius: 40px;
+    display: block;
+    max-width: 120px;
+}
+.divl{
+    background-color: orange;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    margin-top: 100px;
+}
+.dl{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-left: 0;
+}
+#dila{
+    width: 120px;
+    padding: 20px;
+    padding-right: 0;
+}
+#dilaa{
+    text-decoration: none;
+    margin: 20px;
+}
+#dilaa:hover{
+    color: lightblue;
+    text-decoration: underline;
+}
+#dla{
+    padding: 10px;
+}
+.lastd{
+    text-align: center;
+    background-color: navy;
+    padding: 8px;
+    font-size: 20px;
+    color: white;
+}
+#dil{
+    color: #ffffff;
+}
+.apdiv1{
+    display: flex;
+    flex-direction: row;
+}
+.aped1{
+    padding: 60px;
+    padding-bottom: 0;
+}
+.innerdiv{
+    background-color: white;
+    border-bottom-style: solid;
+    padding: 40px;
+    position: relative;
+    top: -150px;
+    border-radius: 10px 10px 0 0;
+    box-shadow: black 1px 2px 20px -10px;
+    max-width: 305px;
+}
+#i{
+    background-color: lightskyblue;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 10px;
+}
+#n{
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+.ai-img{
+    margin-bottom: 20px;
+    width: 380px;
+    border: 2px solid orange;
+}
+.ap1{
+    text-decoration: none;
+    color: black;
+}
+.ap1:hover{
+    color: orange;
+}
+@media only screen and (min-width:320px) and (max-width:768px){
+    #d2{ 
+        font-size: 94%;
+    }
+    .div2{
+        padding-left: 0;
+    }
+    .imgwm{
+        width: 25%;
+        padding: 0;
+    }
+    #p{
+        font-size: 82%;
+    }
+    #dp{
+        padding-right: 0;
+    }
+    .head{
+        font-size:100%;
+    }
+    .he{
+        font-size: 90%;
+    }
+    .para1{
+        font-size: 500%;
+    }
+    .para2{
+        font-size: 135%;
+        padding-top: 2%;
+    }
+    .para3{
+        font-size: 80%;
+        padding-top: 0;
+    }
+    #ar{
+        font-size: 90%;
+        padding: 2%;
+    }
+    .para4{
+        font-size: 200%;
+    }
+    .par{
+        padding-left: 4%;
+    }
+    #cdiv{
+        font-size: 100%;
+    }
+    #ccdiv{
+        font-size: 100%;
+    }
+    #paradiv{
+        font-size: 60%;
+    }
+    #i1{
+        width: 70%;
+    }
+    .proud{
+        font-size: 100%;
+    }
+    #r1{
+        padding-left: 2%;
+        padding-right: 4%;
+    }
+    #i2{
+        width: 100%;
+    }
+    .mm{
+        font-size: 275%;
+    }
+    .mm1{
+        padding: 8%;
+        font-size: 100%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .mmdiv{
+        padding: 0;
+    }
+    #mdiv{
+        font-size: 125%;
+    }
+    #mdiv2{
+        font-size: 50%;
+    }
+    #mmmdiv{
+        font-size: 125%;
+    }
+    #i3{
+        width: 40%;
+    }
+    .go{
+        font-size: 250%;
+        margin: 0;
+    }
+    .apdiv1{
+        display: flex;
+        flex-direction: column;
+        padding: 20%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .innerdiv{
+        max-width: 260%;
+    }
+    .aped1 {
+        padding: 8%;
+    }
+    .ai-img{
+        width: 60%;
+    }
+    .cr{
+        max-width: 85px;
+        padding: 4%;
+        margin: 3px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .div2{
+        padding-left: 0;
+    }
+    #d2{
+        font-size: 94%;
+    }
+    .imgwm{
+        width: 20%;
+        padding-right: 0;
+    }
+    #p{
+        font-size: 90%;
+    }
+    #dp{
+        padding-right: 0;
+    }
+    .head{
+        font-size: 110%;
+    }
+    .he{
+        font-size: 110%;
+    }
+    .para1{
+        font-size: 500%;
+    }
+    .para2{
+        font-size: 140%;
+        padding-top: 2%;
+    }
+    .para3{
+        font-size: 85%;
+    }
+    #ar{
+        font-size: 100%;
+        padding: 2%;
+    }
+    .para4{
+        font-size: 200%;
+    }
+    .par{
+        padding-left: 8%;
+    }
+    #i1{
+        width: 75%;
+    }
+    #cdiv{
+        font-size: 105%;
+    }
+    #ccdiv{
+        font-size: 105%;
+    }
+    #paradiv{
+        font-size: 57%;
+    }
+    .proud{
+        font-size: 110%;
+    }
+    #i2{
+        width: 230%;
+    }
+    #r1{
+        padding-left: 2%;
+    }
+    .mm{
+        font-size: 280%;
+    }
+    .mm1{
+        font-size: 120%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .mmdiv{
+        padding: 4%;
+    }
+    #i3{
+        width: 50%;
+        padding: 2%;
+    }
+    #mdiv2{
+        font-size: 55%;
+    }
+    .go{
+        font-size: 260%;
+    }
+    .apdiv1{
+        display: flex;
+        flex-direction: column;
+        padding: 20%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ai-img{
+        width: 99%;
+    }
+    .innerdiv{
+        top: -125px;
+    }
+    #i{
+        display: block;
+        max-width: 30%;
+        margin: 2%;
+        margin-left: 30%;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1200px){
+    .div2{
+        padding-left: 10%;
+    }
+    #d2{
+        font-size: 125%;
+    }
+    .imgwm{
+        padding-right: 2%;
+    }
+    .head{
+        font-size: 100%;
+    }
+    .he{
+        font-size: 105%;
+    }
+    .para1{
+        font-size: 600%;
+    }
+    .para2{
+        font-size: 175%;
+    }
+    .para3{
+        font-size: 100%;
+        padding-top: 2%;
+    }
+    #ar{
+        font-size: 125%;
+        padding: 2%;
+    }
+    .para4{
+        font-size: 200%;
+    }
+    .par{
+        padding-left: 8%;
+    }
+    #i1{
+        width: 50%;
+    }
+    #cdiv{
+        font-size: 105%;
+    }
+    #ccdiv{
+        font-size: 105%;
+    }
+    #paradiv{
+        font-size: 70%;
+    }
+    .proud{
+        font-size: 110%;
+    }
+    #i2{
+        width: 110%;
+    }
+    #r1{
+        padding-left: 2%;
+    }
+    .mm{
+        font-size: 280%;
+    }
+    .mm1{
+        font-size: 120%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .mmdiv{
+        padding: 4%;
+    }
+    #i3{
+        width: 30%;
+        padding: 2%;
+    }
+    #mdiv2{
+        font-size: 50%;
+    }
+    .go{
+        font-size: 260%;
+    }
+    .apdiv1{
+        display: flex;
+        flex-direction: column;
+        padding: 20%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ai-img{
+        width: 78%;
+    }
+    .innerdiv{
+        top: -160px;
+        padding: 7%;
+    }
+    #i{
+        display: block;
+        max-width: 30%;
+        margin: 2%;
+        margin-left: 30%;
+    }
+    .color{
+        padding-left: 3%;
+    }
+}
+@media only screen and (min-width:1200px){
+    /* .div2{
+        padding-left: 25%;
+    }
+    #d2{
+        font-size: 125%;
+    }
+    #p{
+        font-size: 125%;
+    }
+    #dp{
+        padding: 2%;
+    }
+    .imgwm{
+        padding-right: 2%;
+    }
+    .head{
+        font-size: 100%;
+    }
+    .he{
+        font-size: 105%;
+    }
+    .para1{
+        font-size: 600%;
+    }
+    .para2{
+        font-size: 175%;
+    }
+    .para3{
+        font-size: 100%;
+        padding-top: 2%;
+    }
+    #ar{
+        font-size: 125%;
+        padding: 2%;
+    }
+    .para4{
+        font-size: 200%;
+    }
+    .par{
+        padding-left: 8%;
+    }
+    #i1{
+        width: 50%;
+    }
+    #cdiv{
+        font-size: 105%;
+    }
+    #ccdiv{
+        font-size: 105%;
+    }
+    #paradiv{
+        font-size: 70%;
+    }
+    .proud{
+        font-size: 110%;
+    }
+    #i2{
+        width: 110%;
+    }
+    #r1{
+        padding-left: 2%;
+    }
+    .mm{
+        font-size: 280%;
+    }
+    .mm1{
+        font-size: 120%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .mmdiv{
+        padding: 4%;
+    }
+    #i3{
+        width: 30%;
+        padding: 2%;
+    }
+    #mdiv2{
+        font-size: 50%;
+    }
+    .go{
+        font-size: 260%;
+    }
+    .apdiv1{
+        display: flex;
+        flex-direction: row;
+        padding: 20%;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .ai-img{
+        width: 180%;
+    }
+    .innerdiv{
+        top: -160px;
+        padding: 7%;
+    }
+    #i{
+        display: block;
+        max-width: 30%;
+        margin: 2%;
+        margin-left: 30%;
+    }
+    .color{
+        padding-left: 3%;
+    } */
+}
